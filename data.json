@@ -1,0 +1,74 @@
+{
+    "cars": [
+        {
+            "id": 1,
+            "brand_name": "Toyota",
+            "model_name": "Corolla",
+            "mileage": 150000,
+            "owners_count": 2
+        },
+        {
+            "id": 2,
+            "brand_name": "Ford",
+            "model_name": "Focus",
+            "mileage": 120000,
+            "owners_count": 3
+        },
+        {
+            "id": 3,
+            "brand_name": "Honda",
+            "model_name": "Civic",
+            "mileage": 95000,
+            "owners_count": 1
+        }
+    ],
+    "furniture": [
+        {
+            "id": 1,
+            "furniture_name": "Стол",
+            "manufacturer": "Ikea",
+            "height": 75,
+            "width": 120,
+            "length": 80
+        },
+        {
+            "id": 2,
+            "furniture_name": "Стул",
+            "manufacturer": "Herman Miller",
+            "height": 100,
+            "width": 50,
+            "length": 50
+        },
+        {
+            "id": 3,
+            "furniture_name": "Диван",
+            "manufacturer": "Ashley Furniture",
+            "height": 85,
+            "width": 200,
+            "length": 90
+        }
+    ],
+    "flower_base": [
+        {
+            "id": 1,
+            "flower_name": "Розы",
+            "quantity": 100,
+            "price": 2.5,
+            "delivery_date": "2024-06-01"
+        },
+        {
+            "id": 2,
+            "flower_name": "Тюльпаны",
+            "quantity": 150,
+            "price": 1.8,
+            "delivery_date": "2024-06-10"
+        },
+        {
+            "id": 3,
+            "flower_name": "Лилии",
+            "quantity": 50,
+            "price": 3.0,
+            "delivery_date": "2024-06-15"
+        }
+    ]
+}
