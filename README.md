@@ -22,7 +22,7 @@
 ]
 ```
 Получение данных конкретного автомобиля по id
-
+```json
 2. GET /cars/1
 
 {
@@ -32,10 +32,10 @@
   "mileage": 100000,
   "owners_count": 2
 }
-
+```
 
 3. GET /furniture:
-
+```json
 [
   {
     "id": 1,
@@ -54,10 +54,9 @@
     "length": 180
   }
 ]
-
-
+```
 4. GET /furniture/1
-
+```json
 {
   "id": 1,
   "furniture_name": "Sofa",
@@ -66,10 +65,10 @@
   "width": 200,
   "length": 150
 }
-
+```
 
 5. GET /flowers
-
+```json
 [
   {
     "id": 1,
@@ -86,10 +85,10 @@
     "delivery_date": "2023-12-15"
   }
 ]
-
+```
 
 6. GET /flowers/1
-
+```json
 {
   "id": 1,
   "flower_name": "Rose",
@@ -97,8 +96,8 @@
   "price": 15.99,
   "delivery_date": "2023-12-10"
 }
-
-примеры POST-запросов к каждой сущности, Примеры JSON-ответов:
+```
+Примеры POST-запросов к каждой сущности, Примеры JSON-ответов:
 
 1. POST /cars
 
