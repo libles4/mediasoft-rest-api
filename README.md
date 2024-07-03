@@ -110,17 +110,17 @@
 1. POST /cars
 
 Запрос:
-
+```json
 {
   "brand_name": "Ford",
   "model_name": "Mustang",
   "mileage": 30000,
   "owners_count": 1
 }
-
+```
 
 Ответ:
-
+```json
 {
   "id": 3,
   "brand_name": "Ford",
@@ -128,13 +128,13 @@
   "mileage": 30000,
   "owners_count": 1
 }
-
+```
 Вот примеры JSON-ответов для `POST` запросов к каждой сущности:
 
 2. POST /furniture
 
 Запрос:
-
+```json
 {
   "furniture_name": "Chair",
   "manufacturer": "Herman Miller",
@@ -142,10 +142,10 @@
   "width": 60,
   "length": 60
 }
-
+```
 
 Ответ:
-
+```json
 {
   "id": 3,
   "furniture_name": "Chair",
@@ -154,22 +154,22 @@
   "width": 60,
   "length": 60
 }
-
+```
 
 3. POST /flowers
 
 Запрос:
-
+```json
 {
   "flower_name": "Tulip",
   "quantity": 20,
   "price": 10.00,
   "delivery_date": "2024-01-15"
 }
-
+```
 
 Ответ:
-
+```json
 {
   "id": 3,
   "flower_name": "Tulip",
@@ -177,5 +177,5 @@
   "price": 10.00,
   "delivery_date": "2024-01-15"
 }
-
+```
 
