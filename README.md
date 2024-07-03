@@ -29,10 +29,10 @@
   }
 ]
 ```
-Получение данных конкретного автомобиля по id
-```json
-2. GET /cars/1
 
+
+2. GET /cars/1
+```json
 {
   "id": 1,
   "brand_name": "Toyota",
